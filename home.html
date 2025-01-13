@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yuvraj</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Scroll to top function
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-900 via-purple-800 to-pink-800 text-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-gray-800 to-gray-900 shadow-md" data-aos="fade-down">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">Portfolio</a>
+            <ul class="flex space-x-6">
+                <li>
+                    <a href="#about" 
+                       class="text-gray-300 bg-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 px-4 py-2 rounded">
+                       About
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" 
+                       class="text-gray-300 bg-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 px-4 py-2 rounded">
+                       Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" 
+                       class="text-gray-300 bg-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 px-4 py-2 rounded">
+                       Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Centered Image Section -->
+    <section class="py-16 bg-gray-800 text-center" data-aos="fade-up">
+        <img src="yuvraj.jpg" alt="Yuvraj Prajapati" class="w-48 h-48 rounded-full mx-auto border-4 border-blue-500 shadow-lg">
+        <h2 class="text-3xl font-bold text-white mt-4">Yuvraj</h2>
+        <p class="text-xl text-gray-300 mt-2">Engineering Student | AI&ML Department | UI UX Designer</p>
+    </section>
+    
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-blue-900 via-purple-800 to-pink-700 py-20" data-aos="fade-up">
+    <div class="container mx-auto px-4 text-center">
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-4">Hi, I'm Yuvraj</h1>
+        <p class="text-xl text-gray-300 mb-6">A passionate engineering student specializing in AI with a strong interest in creating impactful solutions using:</p>
+        
+        <div class="flex justify-center items-center space-x-6 mb-6">
+            <!-- AI Icon -->
+            <div class="flex items-center space-x-2 text-white">
+                <i class="fas fa-brain text-3xl"></i>
+                <span class="text-lg">AI</span>
+            </div>
+            <!-- DSA Icon -->
+            <div class="flex items-center space-x-2 text-white">
+                <i class="fas fa-cogs text-3xl"></i>
+                <span class="text-lg">DSA</span>
+            </div>
+            <!-- Web Development Icon -->
+            <div class="flex items-center space-x-2 text-white">
+                <i class="fas fa-code text-3xl"></i>
+                <span class="text-lg">Web Development</span>
+            </div>
+            <!-- Selenium Icon -->
+            <div class="flex items-center space-x-2 text-white">
+                <i class="fas fa-robot text-3xl"></i>
+                <span class="text-lg">Selenium</span>
+            </div>
+        </div>
+
+        <p class="text-xl text-gray-300 mb-6">...and a strong passion for creating impactful solutions.</p>
+
+        <a href="#projects" class="px-6 py-3 bg-gradient-to-r from-indigo-500 via-blue-600 to-indigo-700 text-white rounded-md shadow-md hover:bg-gradient-to-r hover:from-indigo-600 hover:to-blue-700 transition duration-300 transform hover:scale-105">View My Work</a>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4">About Me</h2>
+                <p class="text-gray-300">I am an engineering student specializing in Artificial Intelligence with a strong passion for Data Structures & Algorithms (DSA), Web Development, and Selenium. I aim to use my skills to create innovative solutions and work on exciting projects that make a difference.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-gradient-to-b from-pink-700 to-purple-800" data-aos="fade-up">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-white mb-8">Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Achievement 1: Top 10 in Coding Competition -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-trophy text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white mb-2">Top 10 in Coding Competition</h3>
+                    <p class="text-gray-300">Secured a spot in the top 10 in a regional coding competition, showcasing problem-solving and algorithmic skills.</p>
+                </div>
+                <!-- Achievement 2: Best Project Award -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-medal text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white mb-2">Best Project Award</h3>
+                    <p class="text-gray-300">Won the best project award for an AI-based chatbot developed as part of a college project.</p>
+                </div>
+                <!-- Achievement 3: Selenium Mastery -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-robot text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white mb-2">Selenium Mastery</h3>
+                    <p class="text-gray-300">Successfully automated and optimized several web testing workflows using Selenium, increasing efficiency by 30%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gradient-to-b from-gray-800 to-gray-900" data-aos="fade-up">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-white mb-8">My Skills</h2>
+            <div class="flex justify-center items-center space-x-8">
+                <!-- DSA -->
+                <div class="bg-gray-700 p-6 rounded-lg hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-cogs text-4xl text-white mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white">DSA IN JAVA</h3>
+                    <p class="text-gray-300">Strong understanding of data structures and algorithms for solving complex problems.</p>
+                </div>
+                <!-- Web Development -->
+                <div class="bg-gray-700 p-6 rounded-lg hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-code text-4xl text-white mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white">Web Development</h3>
+                    <p class="text-gray-300">Experience with HTML, CSS, JavaScript, and modern frameworks for building interactive web apps.</p>
+                </div>
+                <!-- Selenium -->
+                <div class="bg-gray-700 p-6 rounded-lg hover:scale-105 transform transition duration-300">
+                    <i class="fas fa-robot text-4xl text-white mb-4"></i>
+                    <h3 class="text-xl font-semibold text-white">Selenium</h3>
+                    <p class="text-gray-300">Proficient in automating web applications and testing using Selenium WebDriver.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-r from-purple-800 to-pink-700" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-700 shadow-md rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky3nCFJpDX2iNOS51mTEYR0qT-zCyyvPHPQ&s" alt="Project 1" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-white mb-2">AI-based Chatbot</h3>
+                        <p class="text-gray-300">A chatbot built using AI techniques that helps users with common queries and tasks.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-700 shadow-md rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+                    <img src="https://marketplace.canva.com/EAFwckKNjDE/1/0/1600w/canva-black-white-grayscale-portfolio-presentation-nc-_JZdapYY.jpg" alt="Project 2" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-white mb-2">Portfolio Website</h3>
+                        <p class="text-gray-300">A personal website built to showcase my projects, skills, and experience.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-700 shadow-md rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+                    <img src="https://i0.wp.com/electronicslovers.com/wp-content/uploads/2022/03/selenium-alternatives-11.png?resize=902%2C528" alt="Project 3" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-white mb-2">Web Automation with Selenium</h3>
+                        <p class="text-gray-300">Automated testing and web scraping using Selenium WebDriver to improve productivity and efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-b from-gray-900 to-black text-center" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-white mb-8">Contact Me</h2>
+            <p class="text-gray-300 mb-6">Feel free to connect with me through any of the platforms below!</p>
+            <div class="flex justify-center space-x-8">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/_yuvrajprajapati_/" target="_blank" class="group">
+                    <div class="p-6 bg-gray-800 rounded-full shadow-lg hover:bg-pink-600 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-instagram text-3xl text-white group-hover:text-black"></i>
+                    </div>
+                    <p class="mt-2 text-gray-300 group-hover:text-white">Instagram</p>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/9368883608" target="_blank" class="group relative">
+                    <div class="p-6 bg-gray-800 rounded-full shadow-lg hover:bg-green-500 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-whatsapp text-3xl text-white group-hover:text-black"></i>
+                    </div>
+                    <p class="mt-2 text-gray-300 group-hover:text-white">WhatsApp</p>
+                    <span class="absolute bottom-12 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+                        +91 9368883608
+                    </span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/yuvraj-706454258/" target="_blank" class="group">
+                    <div class="p-6 bg-gray-800 rounded-full shadow-lg hover:bg-blue-500 transition duration-300 transform hover:scale-110">
+                        <i class="fab fa-linkedin text-3xl text-white group-hover:text-black"></i>
+                    </div>
+                    <p class="mt-2 text-gray-300 group-hover:text-white">LinkedIn</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-6 relative">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Yuvraj. All rights reserved.</p>
+        </div>
+        <!-- Upward Arrow Icon -->
+        <button 
+            onclick="scrollToTop()" 
+            class="absolute bottom-6 right-6 bg-gray-700 text-white p-3 rounded-full shadow-lg hover:bg-gray-600 transition duration-300 transform hover:scale-110">
+            <i class="fas fa-arrow-up text-xl"></i>
+        </button>
+    </footer>
+
+    <!-- AOS Initialization Script (Placed here to ensure proper loading) -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration
+            easing: 'ease-in-out',
+            once: true,
+            anchorPlacement: 'top-bottom',
+        });
+    </script>
+</body>
+</html>
